@@ -23,5 +23,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: gh-pages/deploy@v1
         with:
-          github_token: ${{ secrets.TOKEN }}
-          build_dir: build
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          source: "build"
+          target: "/"
