@@ -7,7 +7,7 @@ sidebar_custom_props:
   icon: "img/icons/authorization.svg"
 ---
 
-# Авторизация в приложении TESTS
+# Авторизация в приложении
 
 1. Нажмите кнопку LOGIN & PASSWORD.
 
