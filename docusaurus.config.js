@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // URL work sites
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'http://172.17.130.38/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
