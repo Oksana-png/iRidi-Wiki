@@ -1,0 +1,12 @@
+{
+  "position": 4,
+  "label": "Лучшая практика",
+  "link": {
+    "type": "generated-index",
+    "slug": "/best_practice"
+  },
+  "customProps": {
+    "icon": "img/icons/best_practice.svg"
+  },
+  "description": "В данном разделе находятся ссылки на примеры использования продвинутого функционала системы i3 Pro"
+}

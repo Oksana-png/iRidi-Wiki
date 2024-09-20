@@ -1,0 +1,12 @@
+{
+  "position": 2,
+  "label": "iRidi Cloud",
+  "link": {
+    "type": "generated-index",
+    "slug": "/cloud"
+  },
+  "customProps": {
+    "icon": "img/icons/cloud.svg"
+  },
+  "description": "облачный сервис для хранения проектов визуализации, серверных проектов и лицензий"
+}

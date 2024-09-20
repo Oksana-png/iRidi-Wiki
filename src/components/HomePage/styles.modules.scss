@@ -1,0 +1,133 @@
+.hero {
+  position: relative;
+  background-image: url("../../../static/img/video/hero.mp4");
+  background-attachment: fixed;
+
+  &__video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center top;
+    background-size: cover;
+    background-image: url("../../../static/img/hero/hero-bg.png");
+    background-attachment: fixed;
+    z-index: -99;
+  }
+
+  & p {
+    font-size: 32px;
+    line-height: 1.3;
+    color: #66788a;
+    max-width: 803px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  &__block {
+    position: relative;
+    padding: 200px 0 0;
+    height: 100vh;
+    min-height: 900px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("../../../static/img/hero/hero-vector.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__info {
+    padding: 90px 0;
+
+    & h2 {
+      font-weight: 700;
+      font-size: 51px;
+      line-height: 1.3;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 80px;
+
+    }
+  }
+
+  &__infoWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px 60px 60px 60px;
+    border-radius: 20px;
+
+
+    & h3 {
+      font-weight: 700;
+      font-size: 32px;
+      background: linear-gradient(90deg, #0057b7 0%, #003e82 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 15px;
+    }
+
+    &>p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.3;
+      color: #66788a;
+      margin-bottom: 50px;
+      margin-top: 0;
+
+      @media (max-width: 768px) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__itemsWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+  }
+
+  &__items {
+    & strong {
+      font-weight: 700;
+      font-size: 21px;
+      line-height: 1.3;
+      background: linear-gradient(45deg, #0ea2ff 0%, #0057b7 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    & p {
+      font-size: 18px;
+      color: #66788a;
+      margin: 0;
+    }
+  }
+}

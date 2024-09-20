@@ -1,0 +1,129 @@
+.cardContainer {
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
+
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--ifm-transition-fast) ease;
+  transition-property: border, box-shadow;
+}
+
+.cardContainer:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+}
+
+.cardContainer *:last-child {
+  margin-bottom: 0;
+}
+
+.cardTitle {
+  font-size: 21px;
+  margin-bottom: 15px;
+  color: #00b2ff;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.cardDescription {
+  font-size: 18px;
+  color: #66788a;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* Пользовательские */
+
+.cardLink {
+  border: 2px solid #0ea2ff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 187px 1fr;
+}
+
+.cardIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #0ea2ff 0%, #0057b7 100%);
+}
+
+.cardIcon img {
+  width: 55%;
+  max-width: 80px;
+}
+
+.cardWrapper {
+  padding: 38px 12px 38px 30px;
+}
+
+.cardArrow {
+  display: none;
+  width: 12px;
+  height: auto;
+}
+
+/* Стили для карточек самих статей */
+
+.cardCard {
+  grid-template-columns: 84px 1fr;
+}
+
+.cardCard p {
+  display: none;
+}
+
+.cardCard img {
+  width: 50px;
+}
+
+.cardCard .cardTitle {
+  margin-bottom: 0;
+}
+
+.cardCard .cardWrapper {
+  padding: 28px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.cardCard .cardArrow {
+  display: block;
+  width: 12px;
+}
+
+@media (max-width: 1599px) {
+  .cardDescription {
+    -webkit-line-clamp: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardLink {
+    grid-template-columns: 110px 1fr;
+  }
+
+  .cardWrapper {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardLink {
+    grid-template-columns: 100%;
+  }
+
+  .cardDescription {
+    font-size: 16px;
+  }
+}

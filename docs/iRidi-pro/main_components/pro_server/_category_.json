@@ -1,0 +1,12 @@
+{
+  "position": 2,
+  "label": "iRidium server",
+  "link": {
+    "type": "generated-index",
+    "slug": "/pro_server"
+  },
+  "customProps": {
+    "icon": "img/icons/pro_server.svg"
+  },
+  "description": "программно-аппаратный комплекс для систем автоматизации и IoT"
+}

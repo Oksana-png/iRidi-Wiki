@@ -1,0 +1,13 @@
+{
+  "position": 1,
+  "label": "Приложение i3 pro",
+  "link": {
+    "type": "generated-index",
+    "slug": "/i3pro",
+    "description": "руководство по запуску приложения на различных операционных системах"
+  },
+  "customProps": {
+    "icon": "img/icons/i3pro.svg"
+  },
+  "description": "руководство по запуску приложения на различных операционных системах"
+}

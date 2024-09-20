@@ -1,0 +1,12 @@
+{
+  "position": 1,
+  "label": "Личный кабинет",
+  "link": {
+    "type": "generated-index",
+    "slug": "/personal_account"
+  },
+  "customProps": {
+    "icon": "img/icons/personal_account.svg"
+  },
+  "description": "дает возможность управления проектами выполненными в iRidium Lite или Pro, лицензирование этих проектов и хранение их на облаке"
+}

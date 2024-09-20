@@ -1,0 +1,12 @@
+{
+  "position": 2,
+  "label": "Другие",
+  "link": {
+    "type": "generated-index",
+    "slug": "/others",
+    "description": "Другие"
+  },
+  "customProps": {
+    "titleH1": "IRIDI PRO"
+  }
+}

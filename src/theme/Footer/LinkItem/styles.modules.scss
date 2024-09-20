@@ -1,0 +1,11 @@
+.foofooter__link_item {
+  color: #fff;
+  line-height: 1.3;
+  font-size: 18px;
+
+  @media (min-width: 768px) {
+    &:hover {
+      color: inherit;
+    }
+  }
+}

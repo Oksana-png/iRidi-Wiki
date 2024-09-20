@@ -1,0 +1,13 @@
+{
+  "position": 1,
+  "label": "Основные компоненты",
+  "link": {
+    "type": "generated-index",
+    "slug": "/main_components",
+    "description": "Основные компоненты"
+  },
+  "customProps": {
+    "icon": "img/icons/i3pro.svg",
+    "titleH1": "IRIDI PRO"
+  }
+}

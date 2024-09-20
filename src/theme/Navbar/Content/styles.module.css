@@ -1,0 +1,20 @@
+/*
+Hide color mode toggle in small viewports
+ */
+@media (max-width: 996px) {
+  .colorModeToggle {
+    display: none;
+  }
+}
+
+/* Пользовательские стили */
+
+.navbar__inner {
+  display: grid;
+  grid-template-columns: 250px 1fr 260px;
+  color: #fff;
+}
+
+.navbar__items_two {
+  justify-content: center;
+}

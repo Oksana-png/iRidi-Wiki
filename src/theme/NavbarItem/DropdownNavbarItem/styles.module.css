@@ -1,0 +1,11 @@
+.dropdownNavbarItemMobile {
+  cursor: pointer;
+}
+
+
+.dropdown__menulist {
+  padding: 35px 0;
+  margin-bottom: 0;
+  background-color: #0057B7;
+  border: 1px solid #fff;
+}

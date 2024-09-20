@@ -1,0 +1,12 @@
+{
+  "position": 3,
+  "label": "iRidium Transfer",
+  "link": {
+    "type": "generated-index",
+    "slug": "/transfer"
+  },
+  "customProps": {
+    "icon": "img/icons/transfer.svg"
+  },
+  "description": "Приложение для синхронизации ПК с панелью управления"
+}

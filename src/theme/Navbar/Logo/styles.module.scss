@@ -1,0 +1,11 @@
+.navbarLogo {
+  height: 38px;
+  width: auto;
+  font-size: 0;
+
+  & img {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+}

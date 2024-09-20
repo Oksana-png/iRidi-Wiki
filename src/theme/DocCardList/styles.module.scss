@@ -1,0 +1,16 @@
+// пользовательские
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(465px, 1fr));
+  gap: 30px 20px;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 100%;
+  }
+}
+
+.card {
+  padding: 0;
+}
